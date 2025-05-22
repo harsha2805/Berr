@@ -1,0 +1,534 @@
+[2025-05-08 08:05:42] local.INFO: API Body 
+{
+    "messages": {
+        "header": {
+            "schemaRef": {
+                "id": "https://ns.adobe.com/alfuttaim/schemas/aebc4d781e68ad1fd1762e87f5408c1c6bab9999332a9089",
+                "contentType": "application/vnd.adobe.xed-full+json;version=1.0"
+            },
+            "imsOrgId": "19061E2765D889A40A495C2D@AdobeOrg",
+            "datasetId": "67690e4c616b0a2aeefe7ccb",
+            "flowId": "025bff68-7e4f-4512-80b9-a726c6c6c38d",
+            "source": {
+                "name": "Order Details DW Streaming dataflow - 12/23/2024, 11:14 AM"
+            }
+        },
+        "body": {
+            "xdmMeta": {
+                "schemaRef": {
+                    "id": "https://ns.adobe.com/alfuttaim/schemas/aebc4d781e68ad1fd1762e87f5408c1c6bab9999332a9089",
+                    "contentType": "application/vnd.adobe.xed-full+json;version=1.0"
+                }
+            },
+            "xdmEntity": {
+                "identification": {
+                    "email": "Yaserammer@gmail.com",
+                    "phone": "+971502001921"
+                },
+                "orderDetails": {
+                    "webOrderNo": "WEBO2560991",
+                    "irwOrderNo": "4158266",
+                    "irwOrderStatus": "2",
+                    "webOrderStatus": "4",
+                    "orderDate": "2025-05-08 00:00:00.0000000",
+                    "paymentStatus": "0",
+                    "currencyCode": "AED",
+                    "productValue": "111",
+                    "irwOrderValue": "121",
+                    "originalWebOrder": "WEBO2560991",
+                    "ocpOrderId": "4158266",
+                    "cashonDelivery": "0",
+                    "sourceOrder": "Ecom",
+                    "documentType": "Order",
+                    "statusDescription": "Picking"
+                },
+                "billDetails": {
+                    "billtoName": "Yaser ",
+                    "billtoFirstName": "Yaser",
+                    "billtoLastName": "",
+                    "billtoAddress": "Regina Tower by Tiger Properties",
+                    "billtoAddress2": "7th floor - 714",
+                    "billtoAddress3": "",
+                    "billtoCity": "Dubai Jumeirah Village Circle",
+                    "billtoPostCode": "DXB_JVC",
+                    "billtoPhone": "+971502001921",
+                    "billtoEmail": "Yaserammer@gmail.com",
+                    "billtoCountryRegionCode": "UAE",
+                    "familyCardNo": ""
+                },
+                "sellDetails": {
+                    "selltoCustomerName": "Yaser ",
+                    "selltoAddress": "Regina Tower by Tiger Properties",
+                    "selltoCity": "Dubai Jumeirah Village Circle",
+                    "selltoCounty": "UAE",
+                    "selltoPostCode": "DXB_JVC",
+                    "selltophone": "+971502001921"
+                },
+                "shipDetails": {
+                    "shiptoName": "Yaser ",
+                    "shiptoFirstName": "Yaser",
+                    "shiptoLastName": "",
+                    "shiptoAddress": "Regina Tower by Tiger Properties",
+                    "shiptoCity": "Dubai Jumeirah Village Circle",
+                    "shiptoCode": "",
+                    "shiptoState": "79",
+                    "shiptoPostcode": "DXB_JVC",
+                    "shiptoEmail": "Yaserammer@gmail.com",
+                    "shipmentDate": "1753-01-01 00:00:00.0000000",
+                    "shipValue": "10"
+                },
+                "deliveryDetails": {
+                    "deliveryMethod": "PD",
+                    "deliveryCost": "10",
+                    "deliveryTimePeriod": " 3:00:00 PM - 10:00:00 PM"
+                },
+                "discountDetails": {
+                    "couponApplied": "0",
+                    "giftCardApplied": "0",
+                    "cardbindiscountinfo": null,
+                    "blueRewAccountLinked": "1",
+                    "blueRewApplied": "0"
+                },
+                "orderProductListItems": {
+                    "orderProductListItem": [
+                        {
+                            "itemAmount": "9.52",
+                            "itemAmountIncludingVAT": "10.00",
+                            "itemAmountToRefund": ".00",
+                            "itemAmountToRefundExclVAT": ".00",
+                            "itemBinCode": "MISSING",
+                            "itemCancelReturn": "0",
+                            "itemCouponDiscount": "0",
+                            "itemDeliveryCost": "10",
+                            "itemDescription": "Parcel Delivery",
+                            "itemDiscountAmount": ".00",
+                            "itemFamilyPrice": "0",
+                            "itemLineDiscount%": "0",
+                            "itemLineDiscountAmount": ".00",
+                            "itemLocationCode": "MISSING",
+                            "itemID": "50000597",
+                            "itemQuantity": "1",
+                            "itemReasonCode": "",
+                            "itemType": "1",
+                            "itemUnitCost": ".00",
+                            "itemUnitCostLCY": ".00",
+                            "itemUnitPrice": "10.00",
+                            "itemUnitVolume": ".00",
+                            "itemUnitsperParcel": "0",
+                            "itemQuantityToReturn": "0",
+                            "itemQuantityToReceived": "0",
+                            "itemQuantityPicked": "0",
+                            "itemQuantityPerUnitOfMeasure": "1.00000000000000000000",
+                            "itemInfocodeDiscount": ".00"
+                        },
+                        {
+                            "itemAmount": "106.33",
+                            "itemAmountIncludingVAT": "111.65",
+                            "itemAmountToRefund": ".00",
+                            "itemAmountToRefundExclVAT": ".00",
+                            "itemBinCode": "E923600",
+                            "itemCancelReturn": "0",
+                            "itemCouponDiscount": "0",
+                            "itemDeliveryCost": "10",
+                            "itemDescription": "DUNDERGUBBE moving box 64x34x40 cm/80 l brown",
+                            "itemDiscountAmount": ".00",
+                            "itemFamilyPrice": "0",
+                            "itemLineDiscount%": "0",
+                            "itemLineDiscountAmount": ".00",
+                            "itemLocationCode": "CU",
+                            "itemID": "40534562",
+                            "itemQuantity": "7",
+                            "itemReasonCode": "",
+                            "itemType": "1",
+                            "itemUnitCost": "6.61",
+                            "itemUnitCostLCY": "6.61",
+                            "itemUnitPrice": "15.95",
+                            "itemUnitVolume": ".05",
+                            "itemUnitsperParcel": "1",
+                            "itemQuantityToReturn": "0",
+                            "itemQuantityToReceived": "0",
+                            "itemQuantityPicked": "0",
+                            "itemQuantityPerUnitOfMeasure": "1.00000000000000000000",
+                            "itemInfocodeDiscount": ".00"
+                        }
+                    ]
+                },
+                "identityMap": {
+                    "Email": [
+                        {
+                            "authenticatedState": "ambiguous",
+                            "id": "Yaserammer@gmail.com",
+                            "primary": true
+                        }
+                    ],
+                    "Phone": [
+                        {
+                            "authenticatedState": "ambiguous",
+                            "id": "+971502001921",
+                            "primary": false
+                        }
+                    ]
+                },
+                "eventType": "Picking",
+                "modifiedDatetime": "2025-05-08T08:05:10+00:00",
+                "eventID": "a3892bbd-2ad2-43e0-b071-ed4d44f04343"
+            }
+        }
+    }
+} 
+[2025-05-08 08:05:41] local.INFO: API Body 
+{
+    "messages": {
+        "header": {
+            "schemaRef": {
+                "id": "https://ns.adobe.com/alfuttaim/schemas/aebc4d781e68ad1fd1762e87f5408c1c6bab9999332a9089",
+                "contentType": "application/vnd.adobe.xed-full+json;version=1.0"
+            },
+            "imsOrgId": "19061E2765D889A40A495C2D@AdobeOrg",
+            "datasetId": "67690e4c616b0a2aeefe7ccb",
+            "flowId": "025bff68-7e4f-4512-80b9-a726c6c6c38d",
+            "source": {
+                "name": "Order Details DW Streaming dataflow - 12/23/2024, 11:14 AM"
+            }
+        },
+        "body": {
+            "xdmMeta": {
+                "schemaRef": {
+                    "id": "https://ns.adobe.com/alfuttaim/schemas/aebc4d781e68ad1fd1762e87f5408c1c6bab9999332a9089",
+                    "contentType": "application/vnd.adobe.xed-full+json;version=1.0"
+                }
+            },
+            "xdmEntity": {
+                "identification": {
+                    "email": "Yaserammer@gmail.com",
+                    "phone": "+971502001921"
+                },
+                "orderDetails": {
+                    "webOrderNo": "WEBO2560991",
+                    "irwOrderNo": "4158266",
+                    "irwOrderStatus": "2",
+                    "webOrderStatus": "4",
+                    "orderDate": "2025-05-08 00:00:00.0000000",
+                    "paymentStatus": "0",
+                    "currencyCode": "AED",
+                    "productValue": "111",
+                    "irwOrderValue": "121",
+                    "originalWebOrder": "WEBO2560991",
+                    "ocpOrderId": "4158266",
+                    "cashonDelivery": "0",
+                    "sourceOrder": "Ecom",
+                    "documentType": "Order",
+                    "statusDescription": "Picking"
+                },
+                "billDetails": {
+                    "billtoName": "Yaser ",
+                    "billtoFirstName": "Yaser",
+                    "billtoLastName": "",
+                    "billtoAddress": "Regina Tower by Tiger Properties",
+                    "billtoAddress2": "7th floor - 714",
+                    "billtoAddress3": "",
+                    "billtoCity": "Dubai Jumeirah Village Circle",
+                    "billtoPostCode": "DXB_JVC",
+                    "billtoPhone": "+971502001921",
+                    "billtoEmail": "Yaserammer@gmail.com",
+                    "billtoCountryRegionCode": "UAE",
+                    "familyCardNo": ""
+                },
+                "sellDetails": {
+                    "selltoCustomerName": "Yaser ",
+                    "selltoAddress": "Regina Tower by Tiger Properties",
+                    "selltoCity": "Dubai Jumeirah Village Circle",
+                    "selltoCounty": "UAE",
+                    "selltoPostCode": "DXB_JVC",
+                    "selltophone": "+971502001921"
+                },
+                "shipDetails": {
+                    "shiptoName": "Yaser ",
+                    "shiptoFirstName": "Yaser",
+                    "shiptoLastName": "",
+                    "shiptoAddress": "Regina Tower by Tiger Properties",
+                    "shiptoCity": "Dubai Jumeirah Village Circle",
+                    "shiptoCode": "",
+                    "shiptoState": "79",
+                    "shiptoPostcode": "DXB_JVC",
+                    "shiptoEmail": "Yaserammer@gmail.com",
+                    "shipmentDate": "1753-01-01 00:00:00.0000000",
+                    "shipValue": "10"
+                },
+                "deliveryDetails": {
+                    "deliveryMethod": "PD",
+                    "deliveryCost": "10",
+                    "deliveryTimePeriod": " 3:00:00 PM - 10:00:00 PM"
+                },
+                "discountDetails": {
+                    "couponApplied": "0",
+                    "giftCardApplied": "0",
+                    "cardbindiscountinfo": null,
+                    "blueRewAccountLinked": "1",
+                    "blueRewApplied": "0"
+                },
+                "orderProductListItems": {
+                    "orderProductListItem": [
+                        {
+                            "itemAmount": "9.52",
+                            "itemAmountIncludingVAT": "10.00",
+                            "itemAmountToRefund": ".00",
+                            "itemAmountToRefundExclVAT": ".00",
+                            "itemBinCode": "MISSING",
+                            "itemCancelReturn": "0",
+                            "itemCouponDiscount": "0",
+                            "itemDeliveryCost": "10",
+                            "itemDescription": "Parcel Delivery",
+                            "itemDiscountAmount": ".00",
+                            "itemFamilyPrice": "0",
+                            "itemLineDiscount%": "0",
+                            "itemLineDiscountAmount": ".00",
+                            "itemLocationCode": "MISSING",
+                            "itemID": "50000597",
+                            "itemQuantity": "1",
+                            "itemReasonCode": "",
+                            "itemType": "1",
+                            "itemUnitCost": ".00",
+                            "itemUnitCostLCY": ".00",
+                            "itemUnitPrice": "10.00",
+                            "itemUnitVolume": ".00",
+                            "itemUnitsperParcel": "0",
+                            "itemQuantityToReturn": "0",
+                            "itemQuantityToReceived": "0",
+                            "itemQuantityPicked": "0",
+                            "itemQuantityPerUnitOfMeasure": "1.00000000000000000000",
+                            "itemInfocodeDiscount": ".00"
+                        },
+                        {
+                            "itemAmount": "106.33",
+                            "itemAmountIncludingVAT": "111.65",
+                            "itemAmountToRefund": ".00",
+                            "itemAmountToRefundExclVAT": ".00",
+                            "itemBinCode": "E923600",
+                            "itemCancelReturn": "0",
+                            "itemCouponDiscount": "0",
+                            "itemDeliveryCost": "10",
+                            "itemDescription": "DUNDERGUBBE moving box 64x34x40 cm/80 l brown",
+                            "itemDiscountAmount": ".00",
+                            "itemFamilyPrice": "0",
+                            "itemLineDiscount%": "0",
+                            "itemLineDiscountAmount": ".00",
+                            "itemLocationCode": "CU",
+                            "itemID": "40534562",
+                            "itemQuantity": "7",
+                            "itemReasonCode": "",
+                            "itemType": "1",
+                            "itemUnitCost": "6.61",
+                            "itemUnitCostLCY": "6.61",
+                            "itemUnitPrice": "15.95",
+                            "itemUnitVolume": ".05",
+                            "itemUnitsperParcel": "1",
+                            "itemQuantityToReturn": "0",
+                            "itemQuantityToReceived": "0",
+                            "itemQuantityPicked": "0",
+                            "itemQuantityPerUnitOfMeasure": "1.00000000000000000000",
+                            "itemInfocodeDiscount": ".00"
+                        }
+                    ]
+                },
+                "identityMap": {
+                    "Email": [
+                        {
+                            "authenticatedState": "ambiguous",
+                            "id": "Yaserammer@gmail.com",
+                            "primary": true
+                        }
+                    ],
+                    "Phone": [
+                        {
+                            "authenticatedState": "ambiguous",
+                            "id": "+971502001921",
+                            "primary": false
+                        }
+                    ]
+                },
+                "eventType": "Picking",
+                "modifiedDatetime": "2025-05-08T07:50:10+00:00",
+                "eventID": "82c9845e-a4a6-4910-9dcc-202c479ce8b6"
+            }
+        }
+    }
+} 
+[2025-05-08 08:05:37] local.INFO: API Body 
+{
+    "messages": {
+        "header": {
+            "schemaRef": {
+                "id": "https://ns.adobe.com/alfuttaim/schemas/aebc4d781e68ad1fd1762e87f5408c1c6bab9999332a9089",
+                "contentType": "application/vnd.adobe.xed-full+json;version=1.0"
+            },
+            "imsOrgId": "19061E2765D889A40A495C2D@AdobeOrg",
+            "datasetId": "67690e4c616b0a2aeefe7ccb",
+            "flowId": "025bff68-7e4f-4512-80b9-a726c6c6c38d",
+            "source": {
+                "name": "Order Details DW Streaming dataflow - 12/23/2024, 11:14 AM"
+            }
+        },
+        "body": {
+            "xdmMeta": {
+                "schemaRef": {
+                    "id": "https://ns.adobe.com/alfuttaim/schemas/aebc4d781e68ad1fd1762e87f5408c1c6bab9999332a9089",
+                    "contentType": "application/vnd.adobe.xed-full+json;version=1.0"
+                }
+            },
+            "xdmEntity": {
+                "identification": {
+                    "email": "Yaserammer@gmail.com",
+                    "phone": "+971502001921"
+                },
+                "orderDetails": {
+                    "webOrderNo": "WEBO2560991",
+                    "irwOrderNo": "4158266",
+                    "irwOrderStatus": "2",
+                    "webOrderStatus": "4",
+                    "orderDate": "2025-05-08 00:00:00.0000000",
+                    "paymentStatus": "0",
+                    "currencyCode": "AED",
+                    "productValue": "111",
+                    "irwOrderValue": "121",
+                    "originalWebOrder": "WEBO2560991",
+                    "ocpOrderId": "4158266",
+                    "cashonDelivery": "0",
+                    "sourceOrder": "Ecom",
+                    "documentType": "Order",
+                    "statusDescription": "Picking"
+                },
+                "billDetails": {
+                    "billtoName": "Yaser ",
+                    "billtoFirstName": "Yaser",
+                    "billtoLastName": "",
+                    "billtoAddress": "Regina Tower by Tiger Properties",
+                    "billtoAddress2": "7th floor - 714",
+                    "billtoAddress3": "",
+                    "billtoCity": "Dubai Jumeirah Village Circle",
+                    "billtoPostCode": "DXB_JVC",
+                    "billtoPhone": "+971502001921",
+                    "billtoEmail": "Yaserammer@gmail.com",
+                    "billtoCountryRegionCode": "UAE",
+                    "familyCardNo": ""
+                },
+                "sellDetails": {
+                    "selltoCustomerName": "Yaser ",
+                    "selltoAddress": "Regina Tower by Tiger Properties",
+                    "selltoCity": "Dubai Jumeirah Village Circle",
+                    "selltoCounty": "UAE",
+                    "selltoPostCode": "DXB_JVC",
+                    "selltophone": "+971502001921"
+                },
+                "shipDetails": {
+                    "shiptoName": "Yaser ",
+                    "shiptoFirstName": "Yaser",
+                    "shiptoLastName": "",
+                    "shiptoAddress": "Regina Tower by Tiger Properties",
+                    "shiptoCity": "Dubai Jumeirah Village Circle",
+                    "shiptoCode": "",
+                    "shiptoState": "79",
+                    "shiptoPostcode": "DXB_JVC",
+                    "shiptoEmail": "Yaserammer@gmail.com",
+                    "shipmentDate": "1753-01-01 00:00:00.0000000",
+                    "shipValue": "10"
+                },
+                "deliveryDetails": {
+                    "deliveryMethod": "PD",
+                    "deliveryCost": "10",
+                    "deliveryTimePeriod": " 3:00:00 PM - 10:00:00 PM"
+                },
+                "discountDetails": {
+                    "couponApplied": "0",
+                    "giftCardApplied": "0",
+                    "cardbindiscountinfo": null,
+                    "blueRewAccountLinked": "1",
+                    "blueRewApplied": "0"
+                },
+                "orderProductListItems": {
+                    "orderProductListItem": [
+                        {
+                            "itemAmount": "9.52",
+                            "itemAmountIncludingVAT": "10.00",
+                            "itemAmountToRefund": ".00",
+                            "itemAmountToRefundExclVAT": ".00",
+                            "itemBinCode": "MISSING",
+                            "itemCancelReturn": "0",
+                            "itemCouponDiscount": "0",
+                            "itemDeliveryCost": "10",
+                            "itemDescription": "Parcel Delivery",
+                            "itemDiscountAmount": ".00",
+                            "itemFamilyPrice": "0",
+                            "itemLineDiscount%": "0",
+                            "itemLineDiscountAmount": ".00",
+                            "itemLocationCode": "MISSING",
+                            "itemID": "50000597",
+                            "itemQuantity": "1",
+                            "itemReasonCode": "",
+                            "itemType": "1",
+                            "itemUnitCost": ".00",
+                            "itemUnitCostLCY": ".00",
+                            "itemUnitPrice": "10.00",
+                            "itemUnitVolume": ".00",
+                            "itemUnitsperParcel": "0",
+                            "itemQuantityToReturn": "0",
+                            "itemQuantityToReceived": "0",
+                            "itemQuantityPicked": "0",
+                            "itemQuantityPerUnitOfMeasure": "1.00000000000000000000",
+                            "itemInfocodeDiscount": ".00"
+                        },
+                        {
+                            "itemAmount": "106.33",
+                            "itemAmountIncludingVAT": "111.65",
+                            "itemAmountToRefund": ".00",
+                            "itemAmountToRefundExclVAT": ".00",
+                            "itemBinCode": "E923600",
+                            "itemCancelReturn": "0",
+                            "itemCouponDiscount": "0",
+                            "itemDeliveryCost": "10",
+                            "itemDescription": "DUNDERGUBBE moving box 64x34x40 cm/80 l brown",
+                            "itemDiscountAmount": ".00",
+                            "itemFamilyPrice": "0",
+                            "itemLineDiscount%": "0",
+                            "itemLineDiscountAmount": ".00",
+                            "itemLocationCode": "CU",
+                            "itemID": "40534562",
+                            "itemQuantity": "7",
+                            "itemReasonCode": "",
+                            "itemType": "1",
+                            "itemUnitCost": "6.61",
+                            "itemUnitCostLCY": "6.61",
+                            "itemUnitPrice": "15.95",
+                            "itemUnitVolume": ".05",
+                            "itemUnitsperParcel": "1",
+                            "itemQuantityToReturn": "0",
+                            "itemQuantityToReceived": "0",
+                            "itemQuantityPicked": "0",
+                            "itemQuantityPerUnitOfMeasure": "1.00000000000000000000",
+                            "itemInfocodeDiscount": ".00"
+                        }
+                    ]
+                },
+                "identityMap": {
+                    "Email": [
+                        {
+                            "authenticatedState": "ambiguous",
+                            "id": "Yaserammer@gmail.com",
+                            "primary": true
+                        }
+                    ],
+                    "Phone": [
+                        {
+                            "authenticatedState": "ambiguous",
+                            "id": "+971502001921",
+                            "primary": false
+                        }
+                    ]
+                },
+                "eventType": "Picking",
+                "modifiedDatetime": "2025-05-08T07:40:11+00:00",
+                "eventID": "29b8e4d6-fb01-4ef9-9802-d6a58acbe842"
+            }
+        }
+    }
+} 
